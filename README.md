@@ -1,8 +1,3 @@
-# Documentation
-**[https://canvacord.js.org](https://canvacord.js.org)**
-
-**[Join our Discord server](https://neplextech.com/discord)**
-
 # Examples
 ## Rank Card
 
@@ -62,6 +57,3 @@ client.on("message", async (message) => {
 
 client.login("Your_Bot_Token_here");
 ```
-
-# Note
-> ⚠ | In order to use `Canvacord#Welcomer`/`Canvacord#Leaver`/`Canvacord#CaptchaGen`, you may need to install packages like **[discord-canvas](https://npmjs.com/package/discord-canvas)** & **[captcha-canvas](https://npmjs.com/package/captcha-canvas)**.
