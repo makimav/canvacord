@@ -11,7 +11,7 @@ class Util {
      * @hideconstructor
      */
     constructor() {
-        throw new Error(`The ${this.constructor.name} class may not be instantiated!`);
+        throw new Error(`Невозможно создать экземпляр класса ${this.constructor.name}!`);
     }
 
     /**
@@ -33,7 +33,7 @@ class Util {
         let date = time && time  instanceof Date ? time : new Date();
         let hours = date.getHours() < 10 ? `0${date.getHours()}` : date.getHours();
         let minutes = date.getMinutes() < 10 ? `0${date.getMinutes()}` : date.getMinutes();
-        return `Today at ${hours}:${minutes}`;
+        return `Сегодня, в ${hours}:${minutes}`;
     }
 
     /**
@@ -151,8 +151,8 @@ class Util {
      */
     static getLines({ text, ctx, maxWidth }) {
         if (!text) return [];
-        if (!ctx) throw new Error("Canvas context was not provided!");
-        if (!maxWidth) throw new Error("No max-width provided!");
+        if (!ctx) throw new Error("Контекст холста не был предоставлен!");
+        if (!maxWidth) throw new Error("Максимальная ширина не указана!");
         const lines = [];
 
         while (text.length) {
