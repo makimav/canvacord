@@ -1,25 +1,3 @@
-[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)
-
-# Canvacord
-Powerful image manipulation tool to manipulate images easily.
-
-# Installation
-
-```sh
-$ npm i canvacord
-```
-
-[![NPM](https://nodei.co/npm/canvacord.png)](https://nodei.co/npm/canvacord/)
-
-# Features
-- Super simple and easy to use 😎
-- Faster than canvacord v4 🚀
-- More than **50 methods**...? Yay! 🎉
-- Built on top of **[@napi-rs/canvas](https://npm.im/@napi-rs/canvas)** 🔥
-- Object oriented 💻
-- Beginner friendly 🤓
-- Supports emojis 😀
-
 # Documentation
 **[https://canvacord.js.org](https://canvacord.js.org)**
 
